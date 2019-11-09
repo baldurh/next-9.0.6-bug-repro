@@ -6,7 +6,7 @@
     "start": "next start"
   },
   "dependencies": {
-    "@next/bundle-analyzer": "9.1.1",
-    "next": "9.0.6"
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2"
   }
 }

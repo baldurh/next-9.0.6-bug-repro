@@ -20,7 +20,6 @@ module.exports = withBundleAnalyzer({ enabled: process.env.ANALYZE === "true" })
 
     config.resolve.alias = {
       "@ui": path.resolve(__dirname, "../ui"),
-      react: path.resolve(__dirname, "node_modules/react"),
     }
     return config
   }
